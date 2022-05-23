@@ -68,9 +68,6 @@ const Navbar = () => {
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">{menuItems}</ul>
       </div>
-      <div class="navbar-end">
-        <a class="btn">Get started</a>
-      </div>
     </div>
   );
 };

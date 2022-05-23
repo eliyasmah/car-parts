@@ -1,0 +1,67 @@
+
+[
+    {
+        "name": "Car Steering",
+        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "price": "2000",
+        "quantity": "1130",
+        "minimum-order": "100",
+        "img":"https://i.ibb.co/2gGs87p/car-steering.webp"
+    },
+    {
+        "name": "Disk Break",
+        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "price": "7000",
+        "quantity": "830",
+        "minimum-order": "100",
+        "img":"https://i.ibb.co/Pgz9VzJ/disk-break.webp"
+    },
+    {
+        "name": "Hanging 4K Camera",
+        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "price": "3000",
+        "quantity": "930",
+        "minimum-order": "100",
+        "img":"https://i.ibb.co/GpwCs5X/Hanging-4-K-Camera.webp"
+    },
+    {
+        "name": "Wheel",
+        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "price": "8000",
+        "quantity": "1050",
+        "minimum-order": "100",
+        "img":"https://i.ibb.co/qyZX10T/wheel.webp"
+    },
+    {
+        "name": "Wheel Frame",
+        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "price": "3000",
+        "quantity": "1570",
+        "minimum-order": "100",
+        "img":"https://i.ibb.co/Zm9FKcZ/wheel-frame.webp"
+    },
+    {
+        "name": "Wheel Frame",
+        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "price": "70",
+        "quantity": "330",
+        "minimum-order": "100",
+        "img":"https://i.ibb.co/nfz5VjN/product-7.webp"
+    },
+    {
+        "name": "Wheel Frame",
+        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "price": "70",
+        "quantity": "330",
+        "minimum-order": "100",
+        "img":"https://i.ibb.co/nqpM1ZR/product-8.webp"
+    },
+    {
+        "name": "Wheel Frame",
+        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "price": "70",
+        "quantity": "330",
+        "minimum-order": "100",
+        "img":"https://i.ibb.co/GdtYxZB/product-12.webp"
+    }
+]

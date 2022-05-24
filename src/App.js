@@ -6,6 +6,8 @@ import Footer from "./Pages/Shared/Footer";
 import NotFoundPage from "./Pages/Shared/NotFoundPage";
 import Login from "./Pages/Login/Login";
 import SignUp from "./Pages/Login/SignUp";
+import Dashboard from "./Pages/Dashboard/Dashboard";
+import RequireAuth from "./Pages/Login/RequireAuth";
 
 function App() {
   return (
@@ -13,9 +15,17 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path="*" element={<NotFoundPage></NotFoundPage>}></Route>
+        <Route
+          path="/dashboard"
+          element={
+            <RequireAuth>
+              <Dashboard></Dashboard>
+            </RequireAuth>
+          }
+        ></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
+        <Route path="*" element={<NotFoundPage></NotFoundPage>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

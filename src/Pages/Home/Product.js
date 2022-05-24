@@ -7,7 +7,7 @@ const Product = ({ product }) => {
     <div class="card lg:max-w-lg bg-base-100 shadow-xl">
       <figure>
         <img
-          className="border-2 border-gray-500 rounded mt-4"
+          className="border-2 border-primary rounded mt-4"
           src={img}
           alt="Shoes"
         />

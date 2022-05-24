@@ -3,7 +3,7 @@ import notFound from "../../images/banner/404-page.webp";
 
 const NotFoundPage = () => {
   return (
-    <div className="flex mx-auto">
+    <div className="">
       <img src={notFound} alt="" />
     </div>
   );

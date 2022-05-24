@@ -8,6 +8,8 @@ import Login from "./Pages/Login/Login";
 import SignUp from "./Pages/Login/SignUp";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import RequireAuth from "./Pages/Login/RequireAuth";
+import AllProducts from "./Pages/Home/AllProducts";
+import Parches from "./Pages/Parches/Parches";
 
 function App() {
   return (
@@ -15,6 +17,18 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
+        <Route
+          path="/allProducts"
+          element={<AllProducts></AllProducts>}
+        ></Route>
+        <Route
+          path="/parches/:id"
+          element={
+            <RequireAuth>
+              <Parches></Parches>
+            </RequireAuth>
+          }
+        ></Route>
         <Route
           path="/dashboard"
           element={

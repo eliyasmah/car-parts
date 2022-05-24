@@ -1,8 +1,15 @@
 import React from "react";
-import ButtonPrimary from "../Shared/ButtonPrimary";
+import { useNavigate } from "react-router-dom";
 
 const Product = ({ product }) => {
-  const { name, price, img, quantity, description } = product;
+  const { _id, name, price, img, quantity, description } = product;
+
+  const navigate = useNavigate();
+
+  const buyProductHandler = (id) => {
+    navigate(`/parches/${_id}`);
+  };
+
   return (
     <div class="card lg:max-w-lg bg-base-100 shadow-xl">
       <figure>
@@ -20,7 +27,12 @@ const Product = ({ product }) => {
         <p>{description}</p>
         <p>If a dog chews shoes whose shoes does he choose?</p>
         <div class="card-actions justify-center">
-          <ButtonPrimary>buy now</ButtonPrimary>
+          <button
+            className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary"
+            onClick={() => buyProductHandler(_id)}
+          >
+            buy now
+          </button>
         </div>
       </div>
     </div>

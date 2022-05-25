@@ -1,11 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import useData from "../../hooks/useData";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "./../../firebase.init";
 
 const Parches = () => {
   const { id } = useParams();
+  const [user, loading, error] = useAuthState(auth);
+
   const [product, setProduct] = useState({});
-  let { _id, img, name, price, quantity, description } = product;
+
+  const handleOrder = (event) => {
+    event.preventDefault();
+    // const slot = event.target.slot.value;
+  };
+
+  let { _id, img, name, price, quantity, description, order } = product;
   useEffect(() => {
     fetch(`http://localhost:5000/product/${id}`)
       .then((res) => res.json())
@@ -23,44 +32,50 @@ const Parches = () => {
                 <h1 class="text-3xl font-bold">{name}</h1>
                 <h2>Price: {price} par pice</h2>
                 <h2>Available Quantity: {quantity}</h2>
-                <h2>Minimum Order: </h2>
+                <h2>Minimum Order: {order}</h2>
                 <p class="py-6">{description}</p>
-                <button class="btn btn-primary">Get Started</button>
               </div>
             </div>
           </div>
         </div>
         <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-          <div class="card-body">
+          <form onSubmit={handleOrder} class="card-body">
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Name</span>
+              </label>
+              <input
+                type="text"
+                disabled
+                value={user?.displayName || ""}
+                class="input input-bordered"
+              />
+            </div>
             <div class="form-control">
               <label class="label">
                 <span class="label-text">Email</span>
               </label>
               <input
                 type="text"
-                placeholder="email"
+                disabled
+                value={user?.email || ""}
                 class="input input-bordered"
               />
             </div>
             <div class="form-control">
               <label class="label">
-                <span class="label-text">Password</span>
+                <span class="label-text">Order</span>
               </label>
               <input
-                type="text"
-                placeholder="password"
+                type="number"
+                placeholder="order"
                 class="input input-bordered"
               />
-              <label class="label">
-                <a href="#" class="label-text-alt link link-hover">
-                  Forgot password?
-                </a>
-              </label>
             </div>
             <div class="form-control mt-6">
-              <button class="btn btn-primary">Login</button>
+              <button class="btn btn-primary">Order</button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>

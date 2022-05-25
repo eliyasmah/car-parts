@@ -10,6 +10,13 @@ import Dashboard from "./Pages/Dashboard/Dashboard";
 import RequireAuth from "./Pages/Login/RequireAuth";
 import AllProducts from "./Pages/Home/AllProducts";
 import Parches from "./Pages/Parches/Parches";
+import MyProfile from "./Pages/Dashboard/MyProfile";
+import ManageOrders from "./Pages/Dashboard/ManageOrders";
+import AddProduct from "./Pages/Dashboard/AddProduct";
+
+import ManageProducts from "./Pages/Dashboard/ManageProducts";
+import MakeAdmin from "./Pages/Dashboard/MakeAdmin";
+import Reviews from "./Pages/Home/Reviews";
 
 function App() {
   return (
@@ -21,6 +28,7 @@ function App() {
           path="/allProducts"
           element={<AllProducts></AllProducts>}
         ></Route>
+        <Route path="/review" element={<Reviews></Reviews>}></Route>
         <Route
           path="/parches/:id"
           element={
@@ -36,7 +44,19 @@ function App() {
               <Dashboard></Dashboard>
             </RequireAuth>
           }
-        ></Route>
+        >
+          <Route index element={<MyProfile></MyProfile>}></Route>
+          <Route
+            path="manageOrders"
+            element={<ManageOrders></ManageOrders>}
+          ></Route>
+          <Route path="addProduct" element={<AddProduct></AddProduct>}></Route>
+          <Route path="makeAdmin" element={<MakeAdmin></MakeAdmin>}></Route>
+          <Route
+            path="manageProducts"
+            element={<ManageProducts></ManageProducts>}
+          ></Route>
+        </Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
         <Route path="*" element={<NotFoundPage></NotFoundPage>}></Route>

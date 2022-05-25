@@ -2,66 +2,66 @@
 [
     {
         "name": "Car Steering",
-        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "description":"In most cars, small trucks and SUVs on the road today, there is a rack and pinion steering system. This converts the rotational motion of the steering wheel into the linear motion that turns the wheels and guides your path.",
         "price": "2000",
         "quantity": "1130",
-        "minimum-order": "100",
+        "order": "100",
         "img":"https://i.ibb.co/2gGs87p/car-steering.webp"
     },
     {
         "name": "Disk Break",
-        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "description":"A disc brake is a type of brake that uses the calipers to squeeze pairs of pads against a disc or a rotor to create friction. This action slows the rotation of a shaft, such as a vehicle axle, either to reduce its rotational speed.",
         "price": "7000",
         "quantity": "830",
-        "minimum-order": "100",
+        "order": "100",
         "img":"https://i.ibb.co/Pgz9VzJ/disk-break.webp"
     },
     {
         "name": "Hanging 4K Camera",
-        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "description":"Hanging 4K Dash Cam Built-in WiFi GPS Dashboard Camera Front 4K/2.5K and Rear 1080P Dual Car Recorder with Sony Sensor, Mini Security DashCam with 2.45 LCD, 170° Wide Angle, Support 128GB Max",
         "price": "3000",
         "quantity": "930",
-        "minimum-order": "100",
+        "order": "100",
         "img":"https://i.ibb.co/GpwCs5X/Hanging-4-K-Camera.webp"
     },
     {
         "name": "Wheel",
-        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "description":"The car wheel parts perform different roles to ensure that it functions as expected. Some of car wheel parts have been subjects of misunderstanding and confusion. Below we breakdown these parts and understand their structure, functions, and adaptations.",
         "price": "8000",
         "quantity": "1050",
-        "minimum-order": "100",
+        "order": "100",
         "img":"https://i.ibb.co/qyZX10T/wheel.webp"
     },
     {
         "name": "Wheel Frame",
-        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "description":"The rim is a cylindrical wheel outer edge holding the tire on the wheel. Main function of the rim is supporting and sealing the tire to the wheel. The rim ensures proper fitting between tire and rim and retaining the air inside the tubeless tire.",
         "price": "3000",
         "quantity": "1570",
-        "minimum-order": "100",
+        "order": "100",
         "img":"https://i.ibb.co/Zm9FKcZ/wheel-frame.webp"
     },
     {
-        "name": "Wheel Frame",
-        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "name": "Piston",
+        "description":"The piston is an essential part of the internal combustion engine which is key in converting the fuel which you use to fill up your car into energy to drive the car forward. It is a moving component which is used to transfer the force.",
         "price": "70",
         "quantity": "330",
-        "minimum-order": "100",
+        "order": "100",
         "img":"https://i.ibb.co/nfz5VjN/product-7.webp"
     },
     {
-        "name": "Wheel Frame",
-        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "name": "Side Mirror",
+        "description":"A side-view mirror, also known as a wing mirror, is a mirror placed on the exterior of motor vehicles for the purposes of helping the driver see areas behind and to the sides of the vehicle, outside the driver's peripheral vision.",
         "price": "70",
         "quantity": "330",
-        "minimum-order": "100",
+        "order": "100",
         "img":"https://i.ibb.co/nqpM1ZR/product-8.webp"
     },
     {
-        "name": "Wheel Frame",
-        "description":"Pineapple is an incredibly delicious, healthy tropical fruit. It’s packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. It’s commonly eaten baked, grilled, or freshly cut.",
+        "name": "Display",
+        "description":"Having a premium car display screen installed in your car is a must to keep you entertained during your journey and also to help in the proper navigation of your car. Watch full HD videos using a USB pen drive or memory card, on the car display screen",
         "price": "70",
         "quantity": "330",
-        "minimum-order": "100",
+        "order": "100",
         "img":"https://i.ibb.co/GdtYxZB/product-12.webp"
     }
 ]

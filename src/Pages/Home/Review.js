@@ -12,8 +12,8 @@ const Review = ({ user }) => {
         </div>
       </figure>
       <div class="card-body items-center text-center">
-        <h2 class="card-title">{name}</h2>
-        <p>{review}</p>
+        <h2 class="card-title text-primary font-bold text-2xl">{name}</h2>
+        <p className="text-secondary">{review}</p>
       </div>
     </div>
   );

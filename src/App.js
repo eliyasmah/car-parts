@@ -13,11 +13,11 @@ import Parches from "./Pages/Parches/Parches";
 import MyProfile from "./Pages/Dashboard/MyProfile";
 import ManageOrders from "./Pages/Dashboard/ManageOrders";
 import AddProduct from "./Pages/Dashboard/AddProduct";
-
 import ManageProducts from "./Pages/Dashboard/ManageProducts";
 import MakeAdmin from "./Pages/Dashboard/MakeAdmin";
 import Reviews from "./Pages/Home/Reviews";
 import Blogs from "./Pages/Blogs/Blogs";
+import MyPortfolio from "./Pages/MyPortfolio/MyPortfolio";
 
 function App() {
   return (
@@ -30,6 +30,10 @@ function App() {
           element={<AllProducts></AllProducts>}
         ></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route
+          path="/myPortfolio"
+          element={<MyPortfolio></MyPortfolio>}
+        ></Route>
         <Route path="/review" element={<Reviews></Reviews>}></Route>
         <Route
           path="/parches/:id"

@@ -3,7 +3,7 @@ import React from "react";
 const Blogs = () => {
   return (
     <div>
-      <div class="card w-80% bg-base-100 shadow-xl my-8">
+      <div class="card w-80% bg-base-100 shadow-xl my-8 bg-gray-100">
         <div class="card-body">
           <h2 class="card-title text-primary font-bold text-2xl">
             1. How will you improve the performance of a React Application?
@@ -21,7 +21,7 @@ const Blogs = () => {
           </p>
         </div>
       </div>
-      <div class="card w-80% bg-base-100 shadow-xl mb-8">
+      <div class="card w-80% bg-base-100 shadow-xl mb-8 bg-gray-100">
         <div class="card-body">
           <h2 class="card-title text-primary font-bold text-2xl">
             2. What are the different ways to manage a state in a React
@@ -44,7 +44,7 @@ const Blogs = () => {
           </p>
         </div>
       </div>
-      <div class="card w-80% bg-base-100 shadow-xl mb-8">
+      <div class="card w-80% bg-base-100 shadow-xl mb-8 bg-gray-100">
         <div class="card-body">
           <h2 class="card-title text-primary font-bold text-2xl">
             3. How does prototypical inheritance work?
@@ -65,7 +65,7 @@ const Blogs = () => {
           </p>
         </div>
       </div>
-      <div class="card w-80% bg-base-100 shadow-xl mb-8">
+      <div class="card w-80% bg-base-100 shadow-xl mb-8 bg-gray-100">
         <div class="card-body">
           <h2 class="card-title text-primary font-bold text-2xl">
             4. Why you do not set the state directly in React?
@@ -83,7 +83,7 @@ const Blogs = () => {
           </p>
         </div>
       </div>
-      <div class="card w-80% bg-base-100 shadow-xl mb-8">
+      <div class="card w-80% bg-base-100 shadow-xl mb-8 bg-gray-100">
         <div class="card-body">
           <h2 class="card-title text-primary font-bold text-2xl">
             5. What is a unit test? Why should write unit tests?

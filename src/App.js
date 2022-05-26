@@ -17,6 +17,7 @@ import AddProduct from "./Pages/Dashboard/AddProduct";
 import ManageProducts from "./Pages/Dashboard/ManageProducts";
 import MakeAdmin from "./Pages/Dashboard/MakeAdmin";
 import Reviews from "./Pages/Home/Reviews";
+import Blogs from "./Pages/Blogs/Blogs";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           path="/allProducts"
           element={<AllProducts></AllProducts>}
         ></Route>
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/review" element={<Reviews></Reviews>}></Route>
         <Route
           path="/parches/:id"

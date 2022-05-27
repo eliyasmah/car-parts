@@ -24,9 +24,6 @@ const Navbar = () => {
       <li>
         <Link to="/myPortfolio">My Profile</Link>
       </li>
-      <li>
-        <Link to="/review">Review</Link>
-      </li>
       {user && (
         <li>
           <Link to="/dashboard">Dashboard</Link>
@@ -44,7 +41,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-gray-200">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -70,7 +67,9 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">Lukas</a>
+        <Link to="/" class="btn btn-ghost normal-case text-xl">
+          Elevator Car Pro{" "}
+        </Link>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">{menuItems}</ul>

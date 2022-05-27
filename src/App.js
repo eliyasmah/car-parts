@@ -15,9 +15,9 @@ import ManageOrders from "./Pages/Dashboard/ManageOrders";
 import AddProduct from "./Pages/Dashboard/AddProduct";
 import ManageProducts from "./Pages/Dashboard/ManageProducts";
 import MakeAdmin from "./Pages/Dashboard/MakeAdmin";
-import Reviews from "./Pages/Home/Reviews";
 import Blogs from "./Pages/Blogs/Blogs";
 import MyPortfolio from "./Pages/MyPortfolio/MyPortfolio";
+import AddReview from "./Pages/Home/AddReview";
 
 function App() {
   return (
@@ -34,7 +34,6 @@ function App() {
           path="/myPortfolio"
           element={<MyPortfolio></MyPortfolio>}
         ></Route>
-        <Route path="/review" element={<Reviews></Reviews>}></Route>
         <Route
           path="/parches/:id"
           element={
@@ -62,6 +61,7 @@ function App() {
             path="manageProducts"
             element={<ManageProducts></ManageProducts>}
           ></Route>
+          <Route path="review" element={<AddReview></AddReview>}></Route>
         </Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>

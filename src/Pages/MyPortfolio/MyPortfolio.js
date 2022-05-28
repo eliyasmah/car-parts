@@ -160,7 +160,11 @@ const MyPortfolio = () => {
                   Single Flash Photography
                 </h2>
                 <div class="card-actions justify-end ">
-                  <a className="btn btn-blue-600 px-6" href="" target="/_blank">
+                  <a
+                    className="btn btn-blue-600 px-6"
+                    href="https://car-parts-10849.web.app/"
+                    target="/_blank"
+                  >
                     VISIT SITE
                   </a>
                 </div>

@@ -13,7 +13,7 @@ const AddReview = () => {
   } = useForm();
   const onSubmit = (data) => {
     console.log(data);
-    const url = `http://localhost:5000/reviews`;
+    const url = `https://arcane-gorge-79649.herokuapp.com/reviews`;
     fetch(url, {
       method: "POST",
       headers: {
@@ -73,7 +73,6 @@ const AddReview = () => {
             {...register("ratings")}
           />
         </div>
-        {/* {signInError} */}
         <input
           className="btn w-full max-w-xs text-white mt-6"
           type="submit"

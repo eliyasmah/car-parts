@@ -6,7 +6,9 @@ import auth from "../../firebase.init";
 const MyOrders = () => {
   const [user] = useAuthState(auth);
 
-  const [orders, setOrders] = useState([]);
+  const [orders, setOrders] = useState({});
+
+  //let { name,displayName,email,order,location} = orders;
   useEffect(() => {
     const getOrders = async () => {
       const email = user.email;
@@ -17,11 +19,11 @@ const MyOrders = () => {
     };
     getOrders();
   }, [user]);
-
+  console.log(orders);
   return (
     <div class="overflow-x-auto">
-      <h1 className="text-2xl text-center my-8 font-bold text-primary">
-        orders:{orders.length}
+      <h1 className="text-3xl text-center my-8 font-bold text-primary">
+        Orders:{orders.length}
       </h1>
       <table class="table table-compact w-full">
         <thead>
@@ -35,14 +37,17 @@ const MyOrders = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th>1</th>
-            <td>{orders.name}</td>
-            <td>{orders.email}</td>
-            <td>Littel, Schaden and Vandervort</td>
-            <td>Canada</td>
-            <td>12/16/2020</td>
-          </tr>
+          {Array.isArray(orders) &&
+            orders.map((order) => {
+              <tr>
+                <th>1</th>
+                <td>{order.name}</td>
+                <td>{order.displayName}</td> */}
+                <td>{order.email}</td>
+                <td>{order.order}</td>
+                <td>{order.location}</td>
+              </tr>;
+            })}
         </tbody>
       </table>
     </div>

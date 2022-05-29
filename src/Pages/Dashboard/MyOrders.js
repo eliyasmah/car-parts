@@ -6,7 +6,7 @@ import auth from "../../firebase.init";
 const MyOrders = () => {
   const [user] = useAuthState(auth);
 
-  const [orders, setOrders] = useState({});
+  const [orders, setOrders] = useState([]);
 
   //let { name,displayName,email,order,location} = orders;
   useEffect(() => {
@@ -42,7 +42,7 @@ const MyOrders = () => {
               <tr>
                 <th>1</th>
                 <td>{order.name}</td>
-                <td>{order.displayName}</td> */}
+                <td>{order.displayName}</td>
                 <td>{order.email}</td>
                 <td>{order.order}</td>
                 <td>{order.location}</td>
